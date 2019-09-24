@@ -1,10 +1,12 @@
-// first alert
-alert("Hello, world!");  
+var youLikeMeat = false;
+var myNum = 10;
+if (youLikeMeat){
 
-// second alert
-alert("Hello, world!");  
+    document.write("I like meat");
 
+}
 
-//make the image invisible
-//move the image from top to bottom
-//make the image invisible
+else{
+
+    document.write("i only eat greens");
+}
