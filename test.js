@@ -1,10 +1,19 @@
-var links = document.getElementsByTagName("a");
+for (i =0; i < 10; i++){
 
-
-for (i = 0; i < links.length; i++){
-
-    console.log("this is link no" + i);
+if (i === 3 || i === 5){
+    continue;
 
 }
 
-document.write ("All links now looped");
+
+
+
+console.log(i);
+
+if ( i === 7){
+
+    break;
+   
+}
+}
+console.log("i am broken :(");
