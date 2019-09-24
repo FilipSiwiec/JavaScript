@@ -1,19 +1,7 @@
-for (i =0; i < 10; i++){
+var links = document.getElementsByTagName("a");
 
-if (i === 3 || i === 5){
-    continue;
+for ( i = 0; i < links.length; i++){
+
+links[i].className = "link-" + i;
 
 }
-
-
-
-
-console.log(i);
-
-if ( i === 7){
-
-    break;
-   
-}
-}
-console.log("i am broken :(");
