@@ -1,7 +1,4 @@
-var a = "hello";
-var b = 5;
+var myString1 = "abc"
+var myString2 = "BCD"
 
-if (!isNaN(a)){
-
-    console.log("meaning of life is " + (a * b));
-}
+console.log( myString1 < myString2.toLowerCase);
