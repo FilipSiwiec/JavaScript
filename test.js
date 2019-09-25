@@ -1,20 +1,23 @@
-var Car = function(maxSpeed, driver){
+var birthday = new Date (1985, 0, 15, 25);
+var birthday2 = new Date (1985, 0, 15, 25);
 
-    this.maxSpeed = maxSpeed;
-    this.driver = driver;
-    this.drive = function(speed, time){
-        console.log(speed * time);
-    };
-    this.logDriver = function(){
-        console.log("driver name is " + this.driver);
-    };
+console.log(birthday.getMonth());
 
+console.log(birthday.getFullYear());
+
+console.log(birthday.getDate());
+
+console.log(birthday.getDay());
+
+console.log(birthday.getHours());
+
+console.log(birthday.getTime());
+
+if(birthday.getTime() == birthday2.getTime()){
+
+    console.log("birthdays are equal");
+    
+} else{
+
+    console.log("birtdays are not equal");
 }
-
-var myCar = new Car (70, "ninja Man");
-var myCar2 = new Car (40, "Stefan");
-var myCar3 = new Car (10, "Andrzej");
-var myCar4 = new Car (90, "Mati");
-
-myCar.drive(30,5);
-myCar3.logDriver();
